@@ -8,7 +8,7 @@ output: pdf_document
 
 [corey@zx.dev](mailto:corey@zx.dev) | (863) 969-6004
 
-Functional software engineer based in Portland, Oregon, working mostly with Haskell, TypeScript, and Nix.
+Functional software engineer based in Portland, Oregon, working with TypeScript, React, Haskell, and Nix.
 
 -------------------------------------------
 
@@ -20,7 +20,8 @@ Working across the full stack to build out and scale applications for educators 
 
 - Implemented engaging user experiences with emphasis on rapid prototyping, validation through A/B testing, and best practices via accessibility and component frameworks.
 - Led adoption of libraries including TypeScript, Testing Library, AriaKit, and Vite.
-- Core contributor to production Haskell backend and supporting libraries; almost understands monads.
+- Core contributor to production Haskell backend and supporting libraries.
+- Designed Node.js-based backend service architecture using Effect and Drizzle.
 - Improved devops and tooling with Nix, Gitops, Docker, and GitHub CI.
 
 
