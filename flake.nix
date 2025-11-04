@@ -13,6 +13,7 @@
 
   outputs = inputs @ {flake-parts, ...}:
     flake-parts.lib.mkFlake {inherit inputs;} ({
+      self,
       config,
       withSystem,
       moduleWithSystem,
@@ -29,11 +30,23 @@
       ];
 
       perSystem = {
+        self',
         pkgs,
         inputs',
         config,
         ...
       }: {
+        packages.resume =
+          pkgs.runCommand "resume.pdf" {
+            nativeBuildInputs = [pkgs.pandoc pkgs.texliveSmall];
+            src = self;
+          }
+          ''
+            set -eu
+            pandoc "$src/README.md" -o "$out"
+          '';
+        packages.default = self'.packages.resume;
+
         formatter = let
           inherit (config.pre-commit.settings) package configFile;
         in
