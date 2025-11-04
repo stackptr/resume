@@ -6,7 +6,7 @@ output: pdf_document
 
 # Corey Johns
 
-[corey@zx.dev](mailto:corey@zx.dev) | (863) 969-6004
+[corey@cjohns.com](mailto:corey@cjohns.com) | (863) 969-6004
 
 Functional software engineer based in Portland, Oregon, working with TypeScript, React, Haskell, and Nix.
 
