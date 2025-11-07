@@ -14,7 +14,7 @@ Functional software engineer based in Portland, Oregon, working with TypeScript,
 
 ## Experience
 
-### Staff Software Engineer, Freckle by Renaissance (07/2017 - Present)
+### Staff Software Engineer, Freckle by Renaissance (07/2017 - 10/2025)
 
 Working across the full stack to build out and scale applications for educators and students.
 
