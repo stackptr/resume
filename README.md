@@ -6,7 +6,7 @@ output: pdf_document
 
 # Corey Johns
 
-[corey@cjohns.com](mailto:corey@cjohns.com) | (863) 969-6004
+[corey@cjohns.com](mailto:corey@cjohns.com) | (863) 969-6004 | _Portland, Oregon_
 
 Experienced software engineer with expertise in the design and implementation of systems across the stack. Currently working with Haskell, TypeScript, and NixOS. Interested in platform engineering and scaling infrastructure.
 
