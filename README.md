@@ -16,14 +16,13 @@ Software engineer with expertise in the design and implementation of systems acr
 
 ### Staff Software Engineer, Freckle by Renaissance (07/2017 - 10/2025)
 
-Working across the full stack to build out and scale applications for educators and students.
+Key contributor across the full stack to build and scale an EdTech platform widely used in schools across the country.
 
-- Implemented engaging user experiences with emphasis on rapid prototyping, validation through A/B testing, and best practices via accessibility and component frameworks.
-- Led adoption of libraries including TypeScript, Testing Library, AriaKit, and Vite.
-- Core contributor to production Haskell backend and supporting libraries.
-- Designed Node.js-based backend service architecture using Effect and Drizzle.
-- Improved devops and tooling with Nix, Gitops, Docker, and GitHub CI.
-
+- **Frontend** Joined as first frontend engineer. Established React component library and patterns prioritizing maintainability, clarity, and long-term quality. Implemented and shipped product features emphasizing rapid prototyping, validation through A/B testing, and accessibility best practices. Championed product stability through integration testing and end-to-end QA. Led adoption of technologies including TypeScript, Testing Library, Redux, AriaKit, and Vite. Executed large-scale migration from Flow to TypeScript without impacting product stability.
+- **Backend** Expanded REST API using Haskell, PostgreSQL, and memcached, backed with AWS ECS, RDS and Elasticache. Designed and implemented stream processing service using Apache Kafka, AWS MSK, and SNS.
+- **Devops** Accelerated delivery pipeline to deployment environments using GitHub Actions, Jenkins, and AWS Codebuild. Scaled platform with Gitops using AWS Cloudformation and improved observability with Datadog, AWS Cloudwatch, and Bugsnag integrations.
+- **Leadership** Translated complex requirements into iterative projects to support state standards, provisioning school districts, and classroom reporting. Mentored junior engineers and led projects to improve team processes, onboarding, and internal documentation. Streamlined developer experience with Nix, Docker, and AI-powered workflows using Cursor and Claude Code.
+- **Architecture** Directed move from monolithic backend to service architecture using Node.js, NestJS, and Effect. Delivered architectural guidance to help key stakeholders mitigate complexity and operational overhead.
 
 ### Director of Technology, UPchieve (10/2016 - 10/2017)
 
