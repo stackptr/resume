@@ -17,6 +17,12 @@ jobs:
         run: |
           nix build .#resume 
           cp -L result resume.pdf
+      - name: Create Tag
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git tag -a "v0.0.${{ github.run_number }}" -m "Release v0.0.${{ github.run_number }}"
+          git push origin "v0.0.${{ github.run_number }}"
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
