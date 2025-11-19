@@ -1,9 +1,3 @@
----
-geometry: "left=0.75in,top=0.6in,right=0.75in,bottom=0.6in"
-pagestyle: empty
-output: pdf_document
----
-
 # Corey Johns
 
 [corey@cjohns.com](mailto:corey@cjohns.com) | (863) 969-6004 | _Portland, Oregon_

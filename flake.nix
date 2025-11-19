@@ -43,7 +43,7 @@
           }
           ''
             set -eu
-            pandoc "$src/README.md" -o "$out"
+            pandoc "$src/README.md" -o "$out" --metadata-file="$src/meta.yml"
           '';
         packages.default = self'.packages.resume;
 
