@@ -33,20 +33,6 @@ Led development and launch of volunteer-run tutoring platform.
 - All code open-sourced on Github: https://www.github.com/upchieve.
 
 
-### Senior Fullstack Engineer, Mattermark Studios (03/2017 - 07/2017)
-
-Lead engineer for E-commerce React and React Native application, using Babel/ES6 with Webpack, Redux, and Jest.
-
-
-### Software Developer, Manylabs (03/2017 - 05/2017)
-
-Contributor to open source software for NSF-funded sensor-based science education project called InSPECT.
-
-- Redesigned frontend UI with Vue.js.
-- Developed interactive data visualization using SVG and `<canvas>`.
-- Worked with controller backend using Python and Flask.
-
-
 ### Senior Software Engineer, Speakeasy.co (10/2014 - 11/2016)
 
 Developer for early-stage voice conferencing sales platform.
