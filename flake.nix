@@ -47,6 +47,15 @@
           '';
         packages.default = self'.packages.resume;
 
+        devShells = {
+          default = pkgs.mkShell {
+            packages =
+              [pkgs.just]
+              ++ config.pre-commit.settings.enabledPackages;
+            inherit (config.pre-commit) shellHook;
+          };
+        };
+
         formatter = let
           inherit (config.pre-commit.settings) package configFile;
         in
