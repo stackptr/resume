@@ -44,6 +44,10 @@ jobs:
         with:
           tag_name: v0.0.${{ github.run_number }}
           files: resume.pdf
+      - name: Update latest tag
+        run: |
+          git tag -f latest
+          git push -f origin latest
       - name: Update latest release
         uses: softprops/action-gh-release@v2
         with:
