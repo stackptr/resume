@@ -44,6 +44,7 @@ jobs:
         with:
           tag_name: v0.0.${{ github.run_number }}
           files: resume.pdf
+          make_latest: false
       - name: Update latest release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -51,4 +52,4 @@ jobs:
           gh release delete latest --yes || true
           git tag -f latest
           git push -f origin latest
-          gh release create latest resume.pdf --title "Latest" --notes "Latest build of resume.pdf" --latest=false
+          gh release create latest resume.pdf --title "Latest" --notes "Latest build of resume.pdf"
