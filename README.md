@@ -12,11 +12,16 @@ Software engineer with expertise in the design and implementation of systems acr
 
 Key contributor across the full stack to build and scale an EdTech platform widely used in schools across the country.
 
-- **Frontend** Joined as first frontend engineer. Established React component library and patterns prioritizing maintainability, clarity, and long-term quality. Implemented and shipped product features emphasizing rapid prototyping, validation through A/B testing, and accessibility best practices. Championed product stability through integration testing and end-to-end QA. Led adoption of technologies including TypeScript, Testing Library, Redux, AriaKit, and Vite. Executed large-scale migration from Flow to TypeScript without impacting product stability.
-- **Backend** Expanded REST API using Haskell, PostgreSQL, and memcached, backed with AWS ECS, RDS and Elasticache. Designed and implemented stream processing service using Apache Kafka, AWS MSK, and SNS.
-- **Devops** Accelerated delivery pipeline to deployment environments using GitHub Actions, Jenkins, and AWS Codebuild. Scaled platform with Gitops using AWS Cloudformation and improved observability with Datadog, AWS Cloudwatch, and Bugsnag integrations.
-- **Leadership** Translated complex requirements into iterative projects to support state standards, provisioning school districts, and classroom reporting. Mentored junior engineers and led projects to improve team processes, onboarding, and internal documentation. Streamlined developer experience with Nix, Docker, and AI-powered workflows using Cursor and Claude Code.
-- **Architecture** Directed move from monolithic backend to service architecture using Node.js, NestJS, and Effect. Delivered architectural guidance to help key stakeholders mitigate complexity and operational overhead.
+- Joined as first frontend engineer; built React component library and established patterns for maintainability and accessibility.
+- Executed large-scale Flow to TypeScript migration without impacting product stability.
+- Shipped product features with rapid prototyping and A/B testing; championed integration testing and end-to-end QA.
+- Expanded Haskell REST API backed by PostgreSQL, memcached, and AWS (ECS, RDS, Elasticache).
+- Designed stream processing service using Apache Kafka, AWS MSK, and SNS.
+- Directed migration from monolithic backend to service architecture using Node.js, NestJS, and Effect.
+- Accelerated CI/CD pipeline using GitHub Actions, Jenkins, and AWS Codebuild; improved observability with Datadog and Cloudwatch.
+- Scaled infrastructure with GitOps using AWS CloudFormation.
+- Mentored junior engineers; led improvements to onboarding, team processes, and internal documentation.
+- Streamlined developer experience with Nix, Docker, and AI-powered workflows using Cursor and Claude Code.
 
 ### Director of Technology, UPchieve (10/2016 - 10/2017)
 
