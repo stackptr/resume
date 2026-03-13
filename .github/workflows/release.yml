@@ -18,10 +18,21 @@ jobs:
       - uses: cachix/install-nix-action@v31
         with:
           github_access_token: ${{ secrets.GITHUB_TOKEN }}
+          extra_nix_config: |
+            extra-substituters = https://cache.zx.dev/main
+            extra-trusted-public-keys = main:mu0jkxdJTGWC3djDSEQb3rvZgqlhA8WVMulcTo5IW6c=
+      - name: Setup Attic
+        run: |
+          nix profile install --inputs-from . nixpkgs#attic-client
+          attic login rc https://cache.zx.dev ${{ secrets.ATTIC_TOKEN }}
+          attic use rc:main
       - name: Build
         run: |
-          nix build .#resume 
+          nix build .#resume
           cp -L result resume.pdf
+      - name: Push to Attic
+        if: github.ref == 'refs/heads/main'
+        run: attic push rc:main ./result
       - name: Create Tag
         run: |
           git config --local user.email "action@github.com"
