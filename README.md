@@ -18,8 +18,7 @@ Key contributor across the full stack to build and scale an EdTech platform wide
 - Expanded Haskell REST API backed by PostgreSQL, memcached, and AWS (ECS, RDS, Elasticache).
 - Designed activity tracking pipeline using Apache Kafka, AWS MSK, and SNS to process student learning events at scale across math and ELA practice sessions.
 - Architected migration path from monolithic backend to service architecture using Node.js, NestJS, and Effect; delivered technical guidance to stakeholders on complexity and operational tradeoffs.
-- Accelerated CI/CD pipeline using GitHub Actions, Jenkins, and AWS CodeBuild; reduced end-to-end deploy time from ~60 min to ~20 min, supporting 5–20 deployments per day.
-- Scaled infrastructure with GitOps using AWS CloudFormation.
+- Accelerated CI/CD pipeline using GitHub Actions, Jenkins, and AWS CodeBuild; reduced deploy time from ~60 to ~20 min, supporting 5–20 deploys/day. Scaled infrastructure declaratively with GitOps and AWS CloudFormation.
 - Mentored 2 junior engineers; led improvements to onboarding, team processes, and internal documentation.
 - Streamlined developer experience with Nix, Docker, and AI-powered workflows using Cursor and Claude Code.
 
