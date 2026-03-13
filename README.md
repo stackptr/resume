@@ -28,7 +28,7 @@ Key contributor across the full stack to build and scale an EdTech platform wide
 Led development and launch of volunteer-run tutoring platform.
 
 - Created real time user experience using Vue.js, Node.js and sockets.io.
-- All code open-sourced on Github: https://www.github.com/upchieve.
+- All code open-sourced on Github.
 
 
 ### Senior Software Engineer, Speakeasy.co (10/2014 - 11/2016)
