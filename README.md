@@ -44,7 +44,7 @@ Developer for early-stage voice conferencing sales platform.
 
 ## Education
 
-### Florida State University (2010 - 2014)
+### Florida State University
 
 Bachelor of Science (B.S.), Electrical and Computer Engineering
 
