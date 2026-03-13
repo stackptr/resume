@@ -2,7 +2,7 @@
 
 [corey@cjohns.com](mailto:corey@cjohns.com) | (863) 969-6004 | _Portland, Oregon_
 
-Software engineer with expertise in the design and implementation of systems across the stack. Currently working with React, TypeScript, Haskell and NixOS. Interested in platform engineering and scaling infrastructure.
+Staff software engineer with 8+ years building and scaling EdTech infrastructure. Deep experience in TypeScript, React, Haskell, and AWS. Focused on platform engineering, developer tooling, and service architecture.
 
 -------------------------------------------
 
