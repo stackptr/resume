@@ -24,11 +24,10 @@ Key contributor across the full stack to build and scale an EdTech platform wide
 
 ### Director of Technology, UPchieve (10/2016 - 10/2017)
 
-Led development and launch of volunteer-run tutoring platform.
+Led a team of 3 to build and launch an open-source volunteer tutoring platform from the ground up, growing from 0 to initial users at launch.
 
-- Created real time user experience using Vue.js, Node.js and sockets.io.
-- All code open-sourced on Github.
-
+- Built real-time tutoring experience using Vue.js, Node.js, and Socket.io.
+- Translated product vision into architecture and delivery as the founding technical lead of an early-stage edtech nonprofit.
 
 ### Senior Software Engineer, Speakeasy.co (10/2014 - 11/2016)
 
