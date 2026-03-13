@@ -31,12 +31,7 @@ Led a team of 3 to build and launch an open-source volunteer tutoring platform f
 
 ### Senior Software Engineer, Speakeasy.co (10/2014 - 11/2016)
 
-Developer for early-stage voice conferencing sales platform.
-
-- Implemented frontend MVC architecture using Backbone Marionette.
-- Built user flows for conferencing calling, in-call management, chat, document sharing, and Salesforce data manipulation.
-- Created prototypes for screen sharing, connection quality analytics, and VoIP calling using WebRTC.
-- Created build and deployment system with static analysis, testing, and optimizations on frontend code.
+Frontend engineer at an early-stage voice conferencing platform. Built MVC architecture, user flows for in-call management and collaboration features, and WebRTC prototypes for screen sharing and VoIP.
 
 -------------------------------------------
 
