@@ -12,15 +12,15 @@ Staff software engineer with 8+ years building and scaling EdTech infrastructure
 
 Key contributor across the full stack to build and scale an EdTech platform widely used in schools across the country.
 
-- Joined as first frontend engineer; built React component library and established patterns for maintainability and accessibility.
-- Executed large-scale Flow to TypeScript migration without impacting product stability.
+- Joined as first frontend engineer; built React component library and established patterns for maintainability and accessibility — supporting a platform used by hundreds of thousands of students across 40%+ of US schools.
+- Executed Flow to TypeScript migration across ~400 modules over 6 months using codemods and incremental lint enforcement, enabling adoption of modern TS-native libraries with zero product instability.
 - Shipped product features with rapid prototyping and A/B testing; championed integration testing and end-to-end QA.
 - Expanded Haskell REST API backed by PostgreSQL, memcached, and AWS (ECS, RDS, Elasticache).
-- Designed stream processing service using Apache Kafka, AWS MSK, and SNS.
-- Directed migration from monolithic backend to service architecture using Node.js, NestJS, and Effect.
-- Accelerated CI/CD pipeline using GitHub Actions, Jenkins, and AWS Codebuild; improved observability with Datadog and Cloudwatch.
+- Designed activity tracking pipeline using Apache Kafka, AWS MSK, and SNS to process student learning events at scale across math and ELA practice sessions.
+- Architected migration path from monolithic backend to service architecture using Node.js, NestJS, and Effect; delivered technical guidance to stakeholders on complexity and operational tradeoffs.
+- Accelerated CI/CD pipeline using GitHub Actions, Jenkins, and AWS CodeBuild; reduced end-to-end deploy time from ~60 min to ~20 min, supporting 5–20 deployments per day.
 - Scaled infrastructure with GitOps using AWS CloudFormation.
-- Mentored junior engineers; led improvements to onboarding, team processes, and internal documentation.
+- Mentored 2 junior engineers; led improvements to onboarding, team processes, and internal documentation.
 - Streamlined developer experience with Nix, Docker, and AI-powered workflows using Cursor and Claude Code.
 
 ### Director of Technology, UPchieve (10/2016 - 10/2017)
