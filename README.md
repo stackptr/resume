@@ -1,6 +1,6 @@
 # Corey Johns
 
-[corey@cjohns.com](mailto:corey@cjohns.com) | (863) 969-6004 | _Portland, Oregon_
+[corey@cjohns.com](mailto:corey@cjohns.com) | _Portland, Oregon_
 
 Staff software engineer with 8+ years building and scaling EdTech infrastructure. Deep experience in TypeScript, React, Haskell, and AWS. Focused on platform engineering, developer tooling, and service architecture.
 
