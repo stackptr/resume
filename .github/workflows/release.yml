@@ -12,27 +12,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: cachix/install-nix-action@v31
+      - uses: cachix/install-nix-action@13d8dd58da0234aa297dedd986986ccb8e7f3e24 # v31.11.1
         with:
           github_access_token: ${{ secrets.GITHUB_TOKEN }}
-          extra_nix_config: |
-            extra-substituters = https://cache.zx.dev/main
-            extra-trusted-public-keys = main:mu0jkxdJTGWC3djDSEQb3rvZgqlhA8WVMulcTo5IW6c=
-      - name: Setup Attic
-        run: |
-          nix profile install --inputs-from . nixpkgs#attic-client
-          attic login rc https://cache.zx.dev ${{ secrets.ATTIC_TOKEN }}
-          attic use rc:main
       - name: Build
         run: |
           nix build .#resume
           cp -L result resume.pdf
-      - name: Push to Attic
-        if: github.ref == 'refs/heads/main'
-        run: attic push rc:main ./result
       - name: Create Tag
         run: |
           git config --local user.email "action@github.com"
@@ -40,7 +29,7 @@ jobs:
           git tag -a "v0.0.${{ github.run_number }}" -m "Release v0.0.${{ github.run_number }}"
           git push origin "v0.0.${{ github.run_number }}"
       - name: Release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@3bb12739c298aeb8a4eeaf626c5b8d85266b0e65 # v2.6.2
         with:
           tag_name: v0.0.${{ github.run_number }}
           files: resume.pdf
