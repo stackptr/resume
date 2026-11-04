@@ -13,7 +13,7 @@ nix fmt      # alejandra, through the pre-commit hooks
 
 ## Publishing
 
-Every push to `main` publishes: `release.yml` builds the PDF, tags `v0.0.<run number>`, creates that release, and replaces the `latest` release and tag. `zx.dev/resume` redirects to `latest`'s `resume.pdf`, so a merge is live within minutes. There's no preview; build locally and look at the PDF before opening a PR, especially for page breaks after content changes.
+Every push to `main` publishes: `release.yml` builds the PDF, tags `v0.0.<run number>`, creates that release, and replaces the `latest` release and tag. `cjohns.com/resume` (on spore, in stackptr/rc) redirects to `latest`'s `resume.pdf`, so a merge is live within minutes. There's no preview; build locally and look at the PDF before opening a PR, especially for page breaks after content changes.
 
 ## Writing
 
@@ -23,11 +23,10 @@ Every push to `main` publishes: `release.yml` builds the PDF, tags `v0.0.<run nu
 
 ## Repo and GitHub
 
-Managed by stackptr/ops: settings, rulesets and environments are changed there, not in the UI. PRs are squash-merged with the PR title as the commit subject; merged branches are deleted.
+Managed by stackptr/ops: settings are changed there, not in the UI. PRs are squash-merged with the PR title as the commit subject; merged branches are deleted.
 
-- My PRs: `approve.yml` (stackptr/actions's reusable workflow, from the main-only `approve` environment) approves them as teleoid; turn on auto-merge and they merge.
-- Agents' PRs (teleomycete, from `agents/**` only): they need my approval of the latest push.
-- `release.yml` pins its actions by SHA; it has `contents: write`, so keep them pinned. Agents can't change `.github/workflows/`.
+- No autonomous agents (teleomycete isn't installed here). Anything that can push here can also replace the `latest` release's PDF, which no ruleset covers, so changes come only from sessions I supervise, and I merge them.
+- `release.yml` pins its actions by SHA; it has `contents: write`, so keep them pinned.
 - No repository-level secrets: stackptr/ops's daily check fails if one appears. A workflow that needs a secret gets a main-only environment in ops.
 
 ## Branching
