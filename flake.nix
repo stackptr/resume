@@ -71,17 +71,5 @@
           };
         };
       };
-
-      flake = {
-        nixConfig = {
-          experimental-features = ["nix-command" "flakes"];
-          extra-substituters = [
-            "https://cache.zx.dev/main"
-          ];
-          extra-trusted-public-keys = [
-            "main:mu0jkxdJTGWC3djDSEQb3rvZgqlhA8WVMulcTo5IW6c="
-          ];
-        };
-      };
     });
 }
